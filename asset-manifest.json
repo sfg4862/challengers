@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/challengers/static/css/main.308a9dc0.css",
-    "main.js": "/challengers/static/js/main.d7c85ef6.js",
+    "main.css": "/challengers/static/css/main.ac3f962c.css",
+    "main.js": "/challengers/static/js/main.994b510f.js",
     "static/js/453.f617bf68.chunk.js": "/challengers/static/js/453.f617bf68.chunk.js",
     "static/media/background8.png": "/challengers/static/media/background8.b6ea9dc18a6d84806202.png",
     "static/media/flogo.png": "/challengers/static/media/flogo.52ea41d078e4c829dc7b.png",
@@ -10,12 +10,12 @@
     "index.html": "/challengers/index.html",
     "static/media/twitter.svg": "/challengers/static/media/twitter.a783e4156d71e748e518140888767c02.svg",
     "static/media/facebook.svg": "/challengers/static/media/facebook.923e8d46d8ec99ef010f0699048cd7a4.svg",
-    "main.308a9dc0.css.map": "/challengers/static/css/main.308a9dc0.css.map",
-    "main.d7c85ef6.js.map": "/challengers/static/js/main.d7c85ef6.js.map",
+    "main.ac3f962c.css.map": "/challengers/static/css/main.ac3f962c.css.map",
+    "main.994b510f.js.map": "/challengers/static/js/main.994b510f.js.map",
     "453.f617bf68.chunk.js.map": "/challengers/static/js/453.f617bf68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.308a9dc0.css",
-    "static/js/main.d7c85ef6.js"
+    "static/css/main.ac3f962c.css",
+    "static/js/main.994b510f.js"
   ]
 }
