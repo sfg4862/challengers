@@ -1,0 +1,119 @@
+.reviewContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+.reviewForm{
+  flex-grow: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.reviewForm:focus {
+  outline: 1px solid black;;
+  border-color: black;
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.reviewHeader h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.filterOptions select {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.reviewList {
+  list-style: none;
+  padding: 0;
+}
+
+.reviewItem {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+}
+
+.reviewTopic {
+  font-size: 16px;
+  color: #6a0dad;
+  font-weight: bold;
+}
+
+.reviewInfo {
+  display: flex;
+  gap: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.reviewAuthor {
+  font-weight: bold;
+}
+
+.reviewContent {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+.reviewRating {
+  font-size: 20px;
+  color: gold;
+}
+
+.reviewButton{
+  all: unset; /* 외부 스타일 초기화 */
+  display: inline-block;
+  padding: 3px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  line-height: normal;
+  background-color: #333;
+  color: white;
+  margin-right: 2px;
+}
+
+.temp2{
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  flex-direction: column;
+  width: 100%; /* 부모의 가로폭 */
+}
+
+.temp{
+  all: unset; /* 기본 스타일 초기화 */
+  display: block; /* 블록 요소로 변경 */
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  line-height: normal;
+  background-color: #333;
+  color: white;
+  width: 20%; /* 부모 컨테이너에 맞춤 */
+  }

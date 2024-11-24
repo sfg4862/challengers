@@ -1,0 +1,277 @@
+.mypage .grayWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ebebeb;
+    color: #000; /* $color-main 대체 */
+
+}
+
+.mypage .grayWrapper .grayLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 460px;
+    height: 200px;
+    margin: 5px;
+    padding-left: 30px;
+    background-color: white;
+    font-size: 23px;
+
+    border-radius: 6px;
+}
+
+.mypage .grayWrapper .grayLeft .textBrown {
+    color: #000; /* $color-main 대체 */
+    font-weight: 800;
+}
+
+.mypage .grayWrapper .grayLeft .buttonStyle {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000; /* $color-main 대체 */
+    color: white;
+    text-decoration: none;
+}
+
+.mypage .grayWrapper .grayRightTop {
+    display: flex;
+
+}
+
+.mypage .grayWrapper .grayRightTopFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 140px;
+    margin: 5px 0px;
+    background-color: white;
+    font-size: 18px;
+
+    border-radius: 6px;
+}
+
+.mypage .grayWrapper .grayRightTopFirst span {
+    margin-bottom: 10px;
+}
+
+.mypage .grayWrapper .grayRightTopFirst .linkStyle {
+    color: #000; /* $color-main 대체 */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.mypage .grayWrapper .pointbutton {
+    margin: 10px;
+}
+
+.mypage .grayWrapper .grayRightTopSecond {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 140px;
+    margin: 5px;
+    padding-left: 30px;
+
+    padding-right: 30px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.mypage .grayWrapper .grayRightTopSecond span {
+    margin-bottom: 10px;
+}
+
+.mypage .grayWrapper .grayRightTopSecond .linkStyle {
+    color: #000; /* $color-main 대체 */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.mypage .grayWrapper .grayRightThird {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 565px;
+    height: 55px;
+    margin-bottom: 5px;
+    padding: 0px 30px;
+    background-color: white;
+
+    border-radius: 6px;
+}
+
+.mypage .grayWrapper .grayRightThird .linkStyle {
+    color: #000; /* $color-main 대체 */
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.mypage .whiteWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.mypage .whiteWrapper .whiteInner {
+    display: flex;
+    justify-content: flex-start;
+    height: 80vh;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteLeft {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteLeft .title {
+    color: #000; /* $color-main 대체 */
+    font-size: 25px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteLeft .boxList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteLeft .boxList .boxLists {
+    padding: 10px;
+    border: 1px solid #000; /* $color-main 대체 */
+    color: #000; /* $color-main 대체 */
+    font-size: 16px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteRight {
+    width: 800px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteRight .orderStatus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000; /* $color-main 대체 */
+}
+
+.mypage .whiteWrapper .whiteInner .whiteRight .orderStatus p {
+    color: #000; /* $color-main 대체 */
+    font-size: 25px;
+}
+
+.mypage .whiteWrapper .whiteInner .whiteRight .orderStatus button {
+    width: 170px;
+    height: 47px;
+    border: 1px solid #000; /* $color-main 대체 */
+    border-radius: 5px;
+    background-color: rgba(143, 116, 87, 0.131);
+    color: #000; /* $color-main 대체 */
+}
+
+button {
+    all: unset; /* 외부 스타일 초기화 */
+    display: inline-block;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: normal;
+    background-color: #333;
+    color: white;
+}
+
+button:hover {
+    background-color: #696969;
+}
+
+.inProgressChallenges {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center;
+    flex-direction: column; /* 아이템을 세로로 정렬 */
+
+}
+
+/* 제목 스타일 */
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+/* 도전 리스트 스타일 */
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+}
+
+/* 각 도전 아이템 스타일 */
+.listItem {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    background-color: #ffffff;
+
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.listItem:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 링크 스타일 */
+.link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+/* 도전 제목 스타일 */
+.itemTitle {
+    text-align: center;
+    background-color : black;
+    width: 200px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    margin: 0 0 8px;
+    color: #fff;
+    padding: 3px;
+}
+
+
+/* 도전 설명 스타일 */
+.itemDescription {
+
+    justify-content: center; /* 수평 중앙 정렬 */
+    font-size: 1rem;
+    margin: 0;
+    color: #555;
+    line-height: 1.4;
+    text-align: center;
+}

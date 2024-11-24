@@ -1,0 +1,49 @@
+.footer {
+    position: fixed;
+    color: #878787;
+    background-color: #494949;
+    width:100%;
+    bottom: 0;
+}
+
+.links {
+    padding: 0;
+    color: #c4c4c4;
+    list-style: none;
+}
+
+.links > * {
+    display: inline-block;
+    line-height: 1.64;
+}
+
+.links > :not(:last-child) {
+    margin-right: 30px;
+}
+
+.info {
+    padding: 0;
+    list-style: none;
+}
+
+.info > * {
+    display: inline-block;
+    line-height: 1.64;
+}
+
+.info > :not(:last-child) {
+    margin-right: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    padding-bottom: 40px;
+
+}
+
+.sns :not(:last-child) {
+    margin-right: 13px;
+}

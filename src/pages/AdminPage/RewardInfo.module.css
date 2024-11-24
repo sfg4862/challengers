@@ -1,0 +1,111 @@
+/* 전체 컨테이너 스타일 */
+.minfo-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: 70px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 챌린지 정보 섹션 스타일 */
+.challenge-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.challenge-info h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.challenge-info p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.post-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.post-table th, .post-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* 가로선만 보이도록 설정 */
+}
+
+.post-table th {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 참가자 명단 컨테이너 스타일 */
+.participants-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.participants-container h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.participants-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.participants-container li {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.approveButton {
+    all: unset; /* 외부 스타일 초기화 */
+    display: inline-block;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: normal;
+}
+.approveButton {
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.approveButton:hover {
+    background-color: #696969;
+}
+
+
+
+/*.reject-button:hover {
+  background-color: #242524; ;
+} */

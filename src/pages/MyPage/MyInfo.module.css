@@ -1,0 +1,74 @@
+/* 기본 컨테이너 스타일 */
+.myInfo {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.myInfo h2 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* 사용자 정보 섹션 */
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.userInfo img {
+    border-radius: 50%;
+    border: 3px solid #e0e0e0;
+
+    object-fit: cover; /* 이미지 비율 유지하면서 영역 채우기 */
+}
+
+.userInfo p {
+    font-size: 1rem;
+    color: #555555;
+    margin: 5px 0;
+}
+
+.userInfo p strong {
+    color: #333333;
+}
+
+/* 버튼 스타일 */
+.editButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.editButton:hover {
+    background-color: #696969;
+}
+
+/* 반응형 처리 */
+@media (max-width: 768px) {
+    .myInfo {
+        padding: 15px;
+    }
+
+    .myInfo h2 {
+        font-size: 1.5rem;
+    }
+
+    .editButton {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}

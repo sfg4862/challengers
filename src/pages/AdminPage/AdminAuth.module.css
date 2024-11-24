@@ -1,0 +1,104 @@
+.adminAuthPage {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.adminAuthPage h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+    border-bottom: 2px solid #4a4a4a;
+    padding-bottom: 10px;
+}
+
+
+.adminAuthItem h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+.adminAuthItem p {
+    margin: 10px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.adminAuthItem strong {
+    color: #333;
+    margin-right: 8px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+
+.approveButton,
+.rejectButton {
+    all: unset; /* 외부 스타일 초기화 */
+    display: inline-block;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: normal;
+    width: 300px;
+}
+
+/* 승인 버튼 스타일 */
+.approveButton {
+    background-color: #333;
+    color: white;
+}
+
+.approveButton:hover {
+    background-color: #696969;
+}
+
+/* 거절 버튼 스타일 */
+.rejectButton {
+    background-color: #aaa;
+    color: white;
+}
+
+.rejectButton:hover {
+    background-color: #696969;
+}
+.challengeAuthImage {
+    display: block; /* 기본적으로 이미지는 inline 요소라 block으로 설정 */
+    margin: 0 auto; /* 좌우 중앙 정렬 */
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .adminAuthPage {
+        padding: 15px;
+        margin: 0 10px;
+    }
+
+    .buttonGroup {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .approveButton, .rejectButton {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

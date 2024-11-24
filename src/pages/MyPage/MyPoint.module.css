@@ -1,0 +1,104 @@
+/* 부모 컨테이너 스타일 */
+.group {
+    display: flex;
+    flex-direction: row; /* 세로 정렬 */
+    justify-content: center;
+    align-items: center; /* 가로 정렬 */
+    text-align: center;
+    gap: 30px; /* 자식 요소 간의 간격 */
+    padding: 20px; /* 전체 여백 */
+}
+
+/* 포인트 영역 스타일 */
+.point {
+    display: flex;
+    flex-direction: row; /* 가로 정렬 */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* 버튼과 텍스트 간격 */
+}
+
+.l {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* 버튼 스타일 */
+.vws {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333; /* 기본 색상 */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.delete:hover,.xchange:hover,.charge:hover,.register:hover {
+    text-decoration: underline;
+    background-color: unset;
+}
+
+.xchange {
+    background-color: unset;
+    color:#272827;
+}
+
+.charge {
+    background-color: unset;
+    color:#272827;
+}
+
+/* 계좌 영역 스타일 */
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.aa {
+    display: flex;
+    flex-direction: row; /* 가로 정렬 */
+    gap: 20px; /* 버튼 간격 */
+    align-items: center;
+}
+
+.c {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 등록 및 삭제 버튼 */
+.register {
+    background-color: unset;
+    color:#272827;
+
+}
+
+.delete {
+    background-color: unset;
+    color: #272827;
+}
+
+/* 텍스트 스타일 */
+p {
+    font-size: 16px;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 구분선 스타일 */
+.dividerLine {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+    width: 100%;
+}

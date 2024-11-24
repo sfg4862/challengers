@@ -1,0 +1,81 @@
+.bg {
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('../assets/background8.png'); /* 배경 이미지 경로 설정 */
+    background-size: cover; /* 화면 크기에 맞게 배경 확대/축소 */
+    background-size : 90%; /* 배경 이미지 크기 조정 */
+    background-position:center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: calc(10%);
+    position: relative; /* .bg와 텍스트를 겹치게 하려면 position 설정 */
+    z-index: 1; /* 텍스트가 배경 위에 오도록 설정 */
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.heading {
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.7;
+    color: rgb(0, 0, 0);
+}
+
+.description {
+   /* margin: 15px 0 25px;
+    font-size: 18px;
+    line-height: 1.61;
+    color: #878787;
+    text-align: left;
+    letter-spacing: normal;*/
+    color: rgb(87, 86, 86);
+    margin-left: 0px;
+}
+
+.figure {
+    flex: 1 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.figure img {
+    width: 100%;
+    max-width: 418px;
+}
+
+.button{
+    width:200px;
+    height: 55px;
+    margin-left: 50px;
+}
+
+@media (max-width: 840px) {
+    .container {
+        flex-direction: column-reverse;
+        margin: 60px auto 226px;
+    }
+
+    .text {
+        margin-right: 0;
+    }
+
+    .figure {
+        margin-bottom: 40px;
+    }
+}

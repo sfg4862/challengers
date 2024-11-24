@@ -1,0 +1,97 @@
+/* 전체 컨테이너 스타일 */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 130px;
+}
+
+/* 로그인 제목 스타일 */
+.loginTitle {
+    padding-bottom: 50px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* 로그인 입력 박스 */
+.loginBox {
+    width: 400px;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+/* 로그인 박스 placeholder 스타일 */
+.loginBox::placeholder {
+    color: #dddddd;
+}
+
+/* 아이디 저장 체크박스 */
+.checkId {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 15px 0px;
+    gap: 10px;
+    color: #dddddd;
+    font-size: 13px;
+}
+
+.checkId .checkBtn {
+    width: 23px;
+    height: 23px;
+}
+
+.checkId .checkIdSave {
+    color: #333;
+}
+
+/* 로그인 버튼 스타일 */
+.btnLogin {
+    width: 400px;
+    height: 60px;
+    margin-top: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* 회원가입 버튼 스타일 */
+.btnSignup {
+    width: 400px;
+    height: 60px;
+    margin-top: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+}
+
+.btnSignup:hover{
+    background-color: #696969;
+    border-color: #696969;
+    color: #aeaeae;
+}
+
+/* 이메일/비밀번호 찾기 */
+.memberFind {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.memberFind .colorWhite {
+    color: #dddddd;
+}
+
+.memberFind .margin30 {
+    margin-right: 30px;
+}

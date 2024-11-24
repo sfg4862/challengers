@@ -1,0 +1,74 @@
+.userMenu {
+    position: relative;
+}
+
+.iconButton {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconButton:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.iconButton img {
+    width: 40px;
+    height: 40px;
+}
+
+.userMenuImage {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.popup {
+    width: 120px;
+    display: flex; /* 플렉스 컨테이너로 설정 */
+    flex-direction: column; /* 기본적으로 세로 정렬 */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #fff;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: -40px;
+    border: 1px solid #ebebeb;
+    box-shadow: var(--box-shadow, 0 4px 6px rgba(0, 0, 0, 0.1));
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.popup li {
+    padding: 10px 15px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup li:hover {
+    background-color: #f4f4f4;
+}
+
+.popup li.disabled {
+    color: #c4c4c4;
+    cursor: not-allowed;
+}
+
+.popup a {
+    display: block; /* Link를 블록 요소로 설정 */
+    text-decoration: none;
+    color: inherit;
+}
+
+.popup a:hover {
+    text-decoration: none;
+}

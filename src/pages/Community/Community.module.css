@@ -1,0 +1,104 @@
+/* 게시판 컨테이너 스타일 */
+.boardContainer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 게시물 테이블 스타일 */
+.postTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.postTable th, .postTable td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* 가로선만 보이도록 설정 */
+}
+
+.postTable th {
+    font-weight: bold;
+}
+
+.postTable th:first-child, .postTable td:first-child {
+    text-align: left;
+    width: 10%;
+}
+
+.postTable td:nth-child(2) {
+    cursor: pointer;
+}
+
+/* 작성일 열 스타일 */
+.createdAt {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+/* 작성자 열 스타일 */
+.author {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+/* 게시물 행 호버 스타일 */
+.postRow:hover td:nth-child(2) {
+    color: #333;
+}
+
+/* 게시물이 없을 때 메시지 스타일 */
+.noPostsMessage {
+    text-align: center;
+    padding: 20px;
+}
+
+/* 페이지네이션 스타일 */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #333;
+}
+
+.pagination .active {
+    background-color: #333;
+    color: white;
+}
+
+.title{
+    text-align: left;
+    font-weight: 500; /* 기본 두께 설정 */
+    transition: all 0.1s ease; /* 효과를 부드럽게 */
+}
+.title:hover{
+    text-decoration: underline;
+}
+
+/* 글 작성 버튼 스타일 */
+.writeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
