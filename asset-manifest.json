@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/challengers/static/css/main.ac3f962c.css",
-    "main.js": "/challengers/static/js/main.18208c38.js",
+    "main.js": "/challengers/static/js/main.2f741610.js",
     "static/js/453.f617bf68.chunk.js": "/challengers/static/js/453.f617bf68.chunk.js",
     "static/media/background8.png": "/challengers/static/media/background8.b6ea9dc18a6d84806202.png",
     "static/media/flogo.png": "/challengers/static/media/flogo.52ea41d078e4c829dc7b.png",
@@ -11,11 +11,11 @@
     "static/media/twitter.svg": "/challengers/static/media/twitter.a783e4156d71e748e518140888767c02.svg",
     "static/media/facebook.svg": "/challengers/static/media/facebook.923e8d46d8ec99ef010f0699048cd7a4.svg",
     "main.ac3f962c.css.map": "/challengers/static/css/main.ac3f962c.css.map",
-    "main.18208c38.js.map": "/challengers/static/js/main.18208c38.js.map",
+    "main.2f741610.js.map": "/challengers/static/js/main.2f741610.js.map",
     "453.f617bf68.chunk.js.map": "/challengers/static/js/453.f617bf68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac3f962c.css",
-    "static/js/main.18208c38.js"
+    "static/js/main.2f741610.js"
   ]
 }
